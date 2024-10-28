@@ -1,6 +1,0 @@
-spring:
-  application:
-    name: beeMarket-feign-api
-    abbr: 调用服务
-  profiles:
-    active: test
