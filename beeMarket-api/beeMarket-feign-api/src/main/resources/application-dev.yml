@@ -1,0 +1,11 @@
+server:
+  port: 24560
+
+rongCloud:
+  im:
+    appKey: m7ua80gbmzqzm
+    appSecret: DGnZ8Z9SDdqXHc
+    projectId: 0 #汇聊项目
+    environmentId: 0 #测试环境
+    api-domain: http://api.sg-b-light-api.com #海外数据中心
+

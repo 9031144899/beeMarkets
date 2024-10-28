@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: beeMarket-trade-api
+    abbr: 交易服务
+  profiles:
+    active: test

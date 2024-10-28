@@ -1,0 +1,19 @@
+server:
+  port: 8002
+
+spring:
+
+
+#   微服务
+  cloud:
+#    注册中心
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}
+
+# Mybatis log plugin 插件输出日志配置
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
