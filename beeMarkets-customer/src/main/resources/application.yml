@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: beeMarkets-customer
+    abbr: 客户服务
+  profiles:
+    active: test
